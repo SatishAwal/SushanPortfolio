@@ -13,13 +13,13 @@ const RecentWork = () => {
       <div className="recent-work-gallery">
         <div className="work-item">
           <img src={Work1} alt="Work 1" />
-          
+
           <div className="work-info">
             <h3>Travel Buddy</h3>
             <p>
-            A mobile app for planning trips and adventures using Firebase and Twilio for backend and .NET MAUI for frontend.
+              A mobile app for planning trips and adventures using Firebase and Twilio for backend and .NET MAUI for frontend.
             </p>
-            <button className="work-btn"><i className="fab fa-github"></i> GitHub</button>
+            <a href="https://github.com/sushanthapa52/TravelBuddy" target="_blank"><button className="work-btn" ><i className="fab fa-github"></i> GitHub</button></a>
           </div>
         </div>
 
@@ -28,9 +28,20 @@ const RecentWork = () => {
           <div className="work-info">
             <h3>Local Business Explorer</h3>
             <p>
-            A platform to help local businesses promote their products and services, featuring a map and event listings.
+              A platform to help local businesses promote their products and services, featuring a map and event listings.
             </p>
-            <button className="work-btn"><i className="fab fa-github"></i> GitHub</button>
+            <a href="https://github.com/sushanthapa52/TravelBuddy" target="_blank"><button className="work-btn"><i className="fab fa-github"></i> GitHub</button></a>
+          </div>
+        </div>
+
+        <div className="work-item">
+          <img src={Work2} alt="Work 2" />
+          <div className="work-info">
+            <h3>Local Business Explorer</h3>
+            <p>
+              A platform to help local businesses promote their products and services, featuring a map and event listings.
+            </p>
+            <a href="https://github.com/sushanthapa52/TravelBuddy" target="_blank"><button className="work-btn"><i className="fab fa-github"></i> GitHub</button></a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 .recent-work-section {
   text-align: center;
-  padding: 60px;
+  padding: 20px 0px;
   background-color: #f5f3f3;
   color: #f4f3f3;
 }
@@ -26,7 +26,7 @@
 
 .work-item {
   background-color: #222;
-  width: 45%;
+  width: 25%;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 30px;

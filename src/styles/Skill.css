@@ -3,7 +3,7 @@
 /* Skills Section */
 .skills-section { 
     text-align: center;
-    background: #0072ff;
+    
     }
 
 .section-title {
@@ -16,6 +16,7 @@
 
 /* Skills Grid */
 .skills-grid {
+    background: linear-gradient(180deg, #4a90e2, #001f3f);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
