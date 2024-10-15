@@ -1,0 +1,106 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .portfolio-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #222;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+  }
+  
+  .intro-text {
+    flex: 1;
+  }
+  
+  .intro-text h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .intro-text p {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  .cta-button {
+    background-color: #32cd32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Worked with section */
+  .worked-with {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .worked-with h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .logos img {
+    width: 100px;
+    height: 50px;
+    filter: brightness(0) invert(1); /* Makes logos white */
+  }
+  
