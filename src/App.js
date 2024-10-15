@@ -1,37 +1,23 @@
 // import logo from './logo.svg';
 import ContactForm from './components/Contact.js';
+import Header from './components/Header.js';
+import Main from './components/Main.js';
+import About from './components/About.js';
+import Skill from './components/Skill.js';
 import RecentWork from './components/RecentWork.js';
-import './styles/Portfolio.css';
+import '../src/styles/Portfolio.css';
 
 function App() {
   return (
     <div>
+      <Header />
+      {/* <Main /> */}
+      
+      <About />  
 
-      <div className="portfolio">
-        {/* Header Section */}
-        <header className="portfolio-header">
-          <nav>
-            <ul className="nav-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Recent Work</a></li>
-              <li><a href="#">Get in Touch</a></li>
-            </ul>
-          </nav>
-        </header>
+      <Skill />
 
-        {/* Main Section */}
-        <main className="main-content">
-          <div className="intro-text">
-            <h1>Sushan Thapa</h1>
-            <p>Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button className="cta-button">Let's get started</button>
-          </div>
-          <div className="profile-image">
-            <img src="your-image-url.jpg" alt="Profile" />
-          </div>
-        </main>
-      </div>
-
+      
       {/* Recent Work Section */}
       <RecentWork />
 

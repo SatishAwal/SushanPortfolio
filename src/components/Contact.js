@@ -3,7 +3,7 @@ import '../styles/Contact.css'; // CSS file for styling
 
 const ContactForm = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id='contact'> 
       {/* Contact Form Section */}
       <div className="contact-form">
         <h2>Get In Touch</h2>
@@ -24,9 +24,9 @@ const ContactForm = () => {
       {/* Contact Info Section */}
       <div className="contact-info">
         <h4>Contact Information</h4>
-        <p><i className="fas fa-map-marker-alt"></i> Information Technologies Building, Victoria Island, Lagos, Nigeria.</p>
-        <p><i className="fas fa-phone"></i> +234 081-1236-4568</p>
-        <p><i className="fas fa-envelope"></i> hello@info.com.ng</p>
+        <p><i className="fas fa-map-marker-alt"></i> Cambrian College, 108 King Street, Sudbury, Canada</p>
+        <p><i className="fas fa-phone"></i> +1 705 561 0179</p>
+        <p><i className="fas fa-envelope"></i> sushan.thapa0101@gmail.com</p>
         <div className="social-icons">
           <a href="#"><i className="fab fa-instagram"></i></a>
           <a href="#"><i className="fab fa-facebook"></i></a>
