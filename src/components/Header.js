@@ -1,5 +1,6 @@
-import '../styles/header.css';
+import '../styles/Header.css';
 import '../styles/Portfolio.css';
+
 
 function Header() {
   return (
