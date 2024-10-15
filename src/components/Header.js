@@ -10,7 +10,7 @@ function Header() {
         <nav className="nav">
           <a href="#about"><i class="fa fa-user" aria-hidden="true"></i><span> </span>About</a>
           <a href="#projects"><i class="fa fa-sitemap" aria-hidden="true"></i><span> </span>Projects</a>
-          <a href="#blog"><i class="fa fa-envelope" aria-hidden="true"></i><span> </span>Contact</a>
+          <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i><span> </span>Contact</a>
         </nav>
       </header>
 
