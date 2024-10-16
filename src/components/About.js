@@ -27,7 +27,7 @@ const About = () => {
                     <div className="bio">
                         {/* Initial visible bio content */}
                         <p>
-                            Hello! I'm <strong>[Your Name]</strong>, a passionate mobile app developer with a focus on creating
+                            Hello! I'm <strong>Sushan Thapa</strong>, a passionate mobile app developer with a focus on creating
                             efficient, user-friendly applications. I'm currently pursuing a <strong>Post-Graduate Certificate in
                                 Mobile Application Development</strong> at <strong>Cambrian College</strong>, where I'm gaining advanced
                             skills in modern technologies and platforms like .NET MAUI, React Native, and Firebase.

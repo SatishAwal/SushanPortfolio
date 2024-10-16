@@ -20,7 +20,7 @@ function Header() {
         <div className="intro-text">
           <h2>Hello, my name is</h2>
           <h1>Sushan Thapa.</h1>
-          <p>I am a Software Engineer that likes photography.</p>
+          <p>I am a Software Engineer that likes Riding Car.</p>
         </div>
         <div className="profile-pic"></div>
       </section>
