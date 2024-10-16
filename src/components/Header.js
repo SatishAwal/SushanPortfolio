@@ -12,6 +12,7 @@ function Header() {
           <a href="#about"><i class="fa fa-user" aria-hidden="true"></i><span> </span>About</a>
           <a href="#projects"><i class="fa fa-sitemap" aria-hidden="true"></i><span> </span>Projects</a>
           <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i><span> </span>Contact</a>
+          <a href={resume} target="_blank" rel="noreferrer"><i class="fa fa-file" aria-hidden="true"></i><span> </span>Resume</a>
         </nav>
       </header>
 
