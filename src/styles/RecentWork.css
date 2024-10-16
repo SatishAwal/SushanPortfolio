@@ -2,6 +2,7 @@
   text-align: center;
   padding: 20px 0px;
   background-color: #f5f3f3;
+  font-family: Arial, sans-serif;
   color: #f4f3f3;
 }
 
@@ -43,7 +44,7 @@
 }
 
 .work-info h3 {
-  color: #333;
+  color: #ffffff;
   font-size: 22px;
   margin-bottom: 15px;
 }
