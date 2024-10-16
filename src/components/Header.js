@@ -1,5 +1,6 @@
 import '../styles/Header.css';
 import '../styles/Portfolio.css';
+import resume from '../files/Cv.pdf';
 
 
 function Header() {
@@ -11,6 +12,10 @@ function Header() {
           <a href="#about"><i class="fa fa-user" aria-hidden="true"></i><span> </span>About</a>
           <a href="#projects"><i class="fa fa-sitemap" aria-hidden="true"></i><span> </span>Projects</a>
           <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i><span> </span>Contact</a>
+<<<<<<< HEAD
+=======
+          <a href={resume} target="_blank" rel="noopener noreferrer"><i class="fa fa-file" aria-hidden="true" ></i><span> </span>Resume</a>
+>>>>>>> homepage
         </nav>
       </header>
 
@@ -22,7 +27,7 @@ function Header() {
         </div>
         <div className="profile-pic"></div>
       </section>
-    </div>
+  </div>
   );
 }
 
